@@ -1,0 +1,25 @@
+{
+  "name": "age-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/OmarKh006/age-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/OmarKh006/age-calculator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmarKh006/age-calculator.git"
+  },
+  "license": "ISC",
+  "author": "Omar Khairy",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.4.0"
+  }
+}
