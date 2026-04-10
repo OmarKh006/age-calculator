@@ -22,4 +22,10 @@ const onclickHandler = () => {
   resultValue.innerHTML = age;
 };
 
+inputFields.forEach((input) => {
+  input.addEventListener("keydown", (pressed) => {
+    pressed.key === "Enter" && onclickHandler();
+  });
+});
+
 calcBtn.addEventListener("click", onclickHandler);
